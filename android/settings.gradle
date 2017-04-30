@@ -1,0 +1,3 @@
+rootProject.name = 'EngCivVR'
+
+include ':app'
