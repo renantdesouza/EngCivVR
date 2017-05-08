@@ -4,7 +4,8 @@ import React, {
 import Native, {
     View,
     Text,
-    AppRegistry
+    AppRegistry,
+    StyleSheet
 } from 'react-native';
 import Menu, {
     MenuContext,
@@ -40,7 +41,7 @@ export default class EngClivVR extends Component {
     }
 }
 
-const styles = Stylesheet.create({
+const styles = StyleSheet.create({
     menu: {
         flex: 1
     },
